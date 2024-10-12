@@ -84,6 +84,113 @@ a {
     font-size: 25px;
     margin: 8px 0;
 }
+.main-content-header .text-typed::after {
+    content: '';
+    animation: typed 5s infinite;
+    border-right: 2px solid white;
+    margin-left: 5px;
+}
+@keyframes typed {
+    0% {
+        content:'D';
+    }
+    3% {
+        content:'De';
+    }
+    6% {
+        content:'Dev';
+    }
+    9% {
+        content:'Deve';
+    }
+    12% {
+        content:'Devel';
+    }
+    15% {
+        content:'Develo';
+    }
+    18% {
+        content:'Develop';
+    }
+    21% {
+        content:'Develope';
+    }
+    24% {
+        content:'Developer';
+    }
+    27% {
+        content:'Develope';
+    }
+    30% {
+        content:'Develop';
+    }
+    33% {
+        content:'Develo';
+    }
+    36% {
+        content:'Devel';
+    }
+    39% {
+        content:'Deve';
+    }
+    42% {
+        content:'Dev';
+    }
+    45% {
+        content:'De';
+    }
+    48% {
+        content:'D';
+    }
+    51% {
+        content:'D';
+    }
+    54% {
+        content:'De';
+    }
+    57% {
+        content:'Des';
+    }
+    60% {
+        content:'Desi';
+    }
+    63% {
+        content:'Desig';
+    }
+    66% {
+        content:'Design';
+    }
+    69% {
+        content:'Designe';
+    }
+    72% {
+        content:'Designer';
+    }
+    75% {
+        content:'Designe';
+    }
+    78% {
+        content:'Design';
+    }
+    81% {
+        content:'Desig';
+    }
+    84% {
+        content:'Desi';
+    }
+    87% {
+        content:'Des';
+    }
+    90% {
+        content:'De';
+    }
+    93% {
+        content:'D';
+    }
+    100% {
+        content:'';
+    }
+}
 
 /* second section */
 
